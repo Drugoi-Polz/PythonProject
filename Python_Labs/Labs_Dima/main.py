@@ -9,10 +9,6 @@ class WorkerInThisWeek:
             self.famWorker = famWorker
             self.countDetails = countDetails
 
-    def printProgress(self):
-        print(f"Фамилия: {self.famWorker}")
-        print(f"Кол-во деталей собранных за неделю: {self.summaDetails()}")
-
     def getMaxCount(self):
         return max(self.countDetails)
 
